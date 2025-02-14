@@ -3,7 +3,7 @@ name: Website Deployment
 on:
   push:
     branches:
-      - main
+      - main # master
 
 jobs:
   lint:

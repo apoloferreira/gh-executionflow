@@ -3,7 +3,7 @@ name: Using Reusable Workflow
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   lint:
