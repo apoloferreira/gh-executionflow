@@ -32,4 +32,4 @@ jobs:
               run: echo "Deploying & Uploading ..."
             - name: Setresult output
               id: set-result
-              run: echo "step-result=success" >> $GITHUB_OUPTUT
+              run: echo "step-result=success" >> $GITHUB_OUTPUT
